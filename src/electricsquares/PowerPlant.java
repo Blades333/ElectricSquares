@@ -2,10 +2,10 @@ package electricsquares;
 
 public class PowerPlant{
 
-  private int elektroCost;
-  private int resourceCost;
-  private Constants.ResourceType resourceType;
-  private int numCitiesPowered;
+  private final int elektroCost;
+  private final int resourceCost;
+  private final Constants.ResourceType resourceType;
+  private final int numCitiesPowered;
 
   public PowerPlant(int eCost, int rCost, int rType, int powered){
     elektroCost = eCost;
