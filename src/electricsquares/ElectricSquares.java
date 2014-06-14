@@ -1,13 +1,13 @@
 package electricsquares;
 
-public class ElectricSquares {
+public class ElectricSquares{
 
   ElectricSquares(){
     System.out.println("Hello World");
   }
-  
-  public static void main(String[] args) {
+
+  public static void main(String[] args){
     new ElectricSquares();
   }
-  
+
 }
