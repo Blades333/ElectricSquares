@@ -61,7 +61,7 @@ public class Constants{
   public static int getNumCitiesStep2(int numPlayers){
     switch (numPlayers){
       case 2:
-        return 1 - 1;
+        return 10;
       case 3:
         return 7;
       case 4:
