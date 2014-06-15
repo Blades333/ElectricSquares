@@ -10,6 +10,10 @@ public class PowerPlantDeck{
     createDeck(cards);
   }
 
+  PowerPlant[] getDeck(){
+    return deck;
+  }
+
   private void createDeck(int[] cards){
     for (int i = 0; i < cards.length; i++){
       if (cards[i] == 1){
@@ -20,7 +24,7 @@ public class PowerPlantDeck{
     }
   }
 
-  void addOrigCard(int card){
+  private void addOrigCard(int card){
     switch (card){
       case 3:
         deck[card] = new PowerPlant(card, 2, 1, 1);
@@ -154,7 +158,7 @@ public class PowerPlantDeck{
     }
   }
 
-  void addAltCard(int card){
+  private void addAltCard(int card){
     switch (card){
       case 1:
         deck[card] = new PowerPlant(card, 3, 0, 1);
